@@ -8,7 +8,7 @@ const blogRouter = require('./routes/blog-route')
 const authenticateUser = require('./middlewares/auth-middleware')
 const cors = require('cors')
 
-const PORT = process.env.PORT || 3090
+const PORT = process.env.PORT || 4999
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
